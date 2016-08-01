@@ -1,4 +1,4 @@
-from demoIJMTM.Save_Mysql import functions
+from FengPrivate import functions
 
 
 def create_journal_logtable(schma_to_write):

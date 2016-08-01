@@ -5,7 +5,7 @@ import mysql.connector
 import nltk
 import enchant
 import string
-from demoIJMTM.Save_Mysql import functions
+from FengPrivate import functions
 from scrapy.loader.processors import Join
 from scrapy.selector import Selector
 
