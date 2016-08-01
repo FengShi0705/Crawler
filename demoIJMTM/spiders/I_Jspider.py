@@ -14,7 +14,7 @@ from datetime import date
 
 
 class I_Jspider(CrawlSpider):
-    name='Jspider'
+    name = 'Jspider'
     apiheader='b4273b1bd02ea3a124a1d25cdc2823cd'
     #count_limit = 400000
     #HTTPERROR_ALLOW_ALL=True
@@ -23,9 +23,9 @@ class I_Jspider(CrawlSpider):
 
     # filter to get English journals
     flt=SpdFun.EnJ()
-    #already finished up_A,B,C,D,E,F,G,up_I,up_J,up_M journals
-    #processing P journals
-    flt.Eng_jnl('http://api.elsevier.com/sitemap/page/sitemap/p.html')
+    #already finished up_A,B,C,D,E,F,G,H,up_I,up_J,K,L,up_M,P journals
+    #processing N journals
+    flt.Eng_jnl('http://api.elsevier.com/sitemap/page/sitemap/n.html')
     allowed_domains=['elsevier.com']
 
     #reject existing journals
