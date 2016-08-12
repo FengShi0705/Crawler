@@ -40,8 +40,8 @@
       <file leaf-file-name="I_Jspider.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spiders/I_Jspider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="27" column="62" selection-start-line="27" selection-start-column="62" selection-end-line="27" selection-end-column="62" />
+            <state relative-caret-position="395">
+              <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -52,7 +52,7 @@
       <file leaf-file-name="pipelines.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pipelines.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="954">
+            <state relative-caret-position="810">
               <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
               <folding>
                 <element signature="e#193#204#0" expanded="true" />
@@ -94,7 +94,7 @@
       <file leaf-file-name="Combine_class.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Save_Mysql/Combine_class.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
+            <state relative-caret-position="450">
               <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
               <folding>
                 <element signature="e#141#163#0" expanded="true" />
@@ -163,7 +163,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -226,7 +226,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -767,7 +767,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Save_Mysql/Combine_class.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
+        <state relative-caret-position="450">
           <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
           <folding>
             <element signature="e#141#163#0" expanded="true" />
@@ -793,7 +793,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="954">
+        <state relative-caret-position="810">
           <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
           <folding>
             <element signature="e#193#204#0" expanded="true" />
@@ -803,8 +803,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spiders/I_Jspider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="27" column="62" selection-start-line="27" selection-start-column="62" selection-end-line="27" selection-end-column="62" />
+        <state relative-caret-position="395">
+          <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
