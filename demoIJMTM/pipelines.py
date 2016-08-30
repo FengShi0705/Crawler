@@ -13,7 +13,7 @@ import mysql.connector
 from mysql.connector import errorcode
 from scrapy.exceptions import DropItem
 import codecs
-from FengPrivate import functions
+from Private import functions
 #############################from Save_Neo4j import myneofun
 from Save_Neo4j import myneofuncollate
 from Save_Log import logfun

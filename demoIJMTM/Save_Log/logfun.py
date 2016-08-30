@@ -1,4 +1,4 @@
-from FengPrivate import functions
+from Private import functions
 
 
 def create_journal_logtable(schma_to_write):
