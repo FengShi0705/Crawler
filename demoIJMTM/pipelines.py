@@ -23,12 +23,12 @@ from py2neo.server import GraphServer
 class index_Pipeline(object):
     def __init__(self):
         # server = GraphServer(home="D:/neo4jzip")
-        mysqlschema='total_v3_csvneo4j'
+        self.mysqlschema='total_v3_csvneo4j'
         # self.graph=myneofuncollate.Getconnected()
         # print self.graph.neo4j_version
-        self.Wcnx,self.Wcursor = functions.creatCursor(mysqlschema,'W')
+        self.Wcnx,self.Wcursor = functions.creatCursor(self.mysqlschema,'W')
 
-        assert mysqlschema=='total_v3_csvneo4j',"mysql database location wrong"
+        assert self.mysqlschema=='total_v3_csvneo4j',"mysql database location wrong"
         #assert server.conf.get("neo4j-server", "org.neo4j.server.database.location")==u'D:/KeywordsLink/database/neo4j/total_v3_csvneo4j.db', "neo4j database location wrong"
 
     def process_item(self, item, spider):
@@ -37,6 +37,14 @@ class index_Pipeline(object):
         if item.get('keywords')==None:
             raise DropItem('Empty. item count: %d' % item['count'])
         else:
+            #check still connected?
+            try:
+                functions.checkextc('Whole', self.Wcursor, item['URL'])
+            except:
+                self.Wcnx, self.Wcursor = functions.creatCursor(self.mysqlschema, 'W')
+                rcfile=open('reconnect.txt','a')
+                rcfile.write('Reconnect when journal={}. \n'.format(item['journal']))
+                rcfile.close()
             #check existence of this paper
             if functions.checkextc('Whole',self.Wcursor,item['URL']):
                 raise DropItem('Duplicated paper: {}'.format(item['URL']))
