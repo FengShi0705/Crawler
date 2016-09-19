@@ -1,0 +1,2 @@
+Reconnect when journal=The Lancet. 
+Reconnect when journal=The Netherlands Journal of Medicine. 
