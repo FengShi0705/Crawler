@@ -23,9 +23,9 @@ class I_Jspider(CrawlSpider):
 
     # filter to get English journals
     flt=SpdFun.EnJ()
-    #already finished up_A,B,C,D,E,F,G,H,up_I,up_J,K,L,up_M,N,O,P,Q,R,S,T,U journals
-    #processing V journals
-    flt.Eng_jnl('http://api.elsevier.com/sitemap/page/sitemap/v.html')
+    #already finished up_A,B,C,D,E,F,G,H,up_I,up_J,K,L,up_M,N,O,P,Q,R,S,T,U,V journals
+    #processing W journals
+    flt.Eng_jnl('http://api.elsevier.com/sitemap/page/sitemap/w.html')
     allowed_domains=['elsevier.com']
 
     #reject existing journals
