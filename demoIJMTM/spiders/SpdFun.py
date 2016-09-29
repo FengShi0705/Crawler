@@ -33,11 +33,12 @@ class EnJ:
                 else:
                     words=nltk.word_tokenize(self.tree.xpath('//a/text()')[i])
                     sign=0
-                    for word in words:
-                        if Dgb.check(word) or Dus.check(word) or word in string.punctuation: # be English words or punctuation
-                            continue
-                        else:
-                            sign=1
+                    # remove '#' to filter to get only english journals
+                   #for word in words:
+                       #if Dgb.check(word) or Dus.check(word) or word in string.punctuation: # be English words or punctuation
+                           #continue
+                       #else:
+                           #sign=1
                     if sign==0:
                         self.enitems.append(url)
 
